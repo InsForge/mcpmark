@@ -1,0 +1,27 @@
+{
+  "task_name": "employees__employee_retention_analysis",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T15:45:24.714967",
+    "end": "2026-02-28T15:52:21.337502"
+  },
+  "agent_execution_time": 410.70390701293945,
+  "task_execution_time": 416.62252712249756,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\n✅ Employee retention analysis results are correct (9 records)\n✅ High risk employee analysis results are correct (240124 records)\n✅ Turnover trend analysis results are correct (18 records)\n\n🎉 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 802391,
+    "output_tokens": 9888,
+    "total_tokens": 812279,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 38
+}

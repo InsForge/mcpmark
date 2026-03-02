@@ -1,0 +1,27 @@
+{
+  "task_name": "employees__employee_demographics_report",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T16:51:51.127969",
+    "end": "2026-02-28T16:52:02.896429"
+  },
+  "agent_execution_time": 7.529977083206177,
+  "task_execution_time": 11.76843786239624,
+  "execution_result": {
+    "success": false,
+    "error_message": "litellm.ContextWindowExceededError: litellm.BadRequestError: AnthropicError - {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"prompt is too long: 214124 tokens > 200000 maximum\"},\"request_id\":\"req_011CYaBYPovhWd3QYGqDxLiU\"}",
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "==================================================\n❌ Database error: relation \"employees.gender_statistics\" does not exist\nLINE 3:             FROM employees.gender_statistics\n                         ^\n\n"
+  },
+  "token_usage": {
+    "input_tokens": 4101,
+    "output_tokens": 142,
+    "total_tokens": 4243,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 1
+}

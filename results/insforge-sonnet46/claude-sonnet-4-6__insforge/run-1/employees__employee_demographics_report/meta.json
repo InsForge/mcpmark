@@ -1,0 +1,27 @@
+{
+  "task_name": "employees__employee_demographics_report",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "insforge",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T21:46:05.577954",
+    "end": "2026-02-28T21:47:50.255955"
+  },
+  "agent_execution_time": 95.76308703422546,
+  "task_execution_time": 104.67799186706543,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\n✅ Gender statistics results are correct (2 records)\n✅ Age group analysis results are correct (1 records)\n✅ Birth month distribution results are correct (12 records)\n✅ Hiring year summary results are correct (16 records)\n\n🎉 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 128764,
+    "output_tokens": 5644,
+    "total_tokens": 134408,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 13
+}

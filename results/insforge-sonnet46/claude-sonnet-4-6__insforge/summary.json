@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-01T08:36:42.031996",
+  "model": "claude-sonnet-4-6-insforge",
+  "actual_model_name": "claude-sonnet-4-6-insforge",
+  "runs": 4,
+  "total_tasks": 21,
+  "total_agent_execution_time": 13155.66,
+  "total_input_tokens": 29359406,
+  "total_output_tokens": 701112,
+  "total_tokens": 30060518,
+  "total_turns": 1562,
+  "avg_agent_execution_time": 156.615,
+  "avg_input_tokens": 349516.74,
+  "avg_output_tokens": 8346.57,
+  "avg_total_tokens": 357863.31,
+  "avg_turns": 18.6,
+  "per_run_input_tokens": 7339851.5,
+  "per_run_output_tokens": 175278.0,
+  "per_run_cost": null,
+  "pass@1": {
+    "avg": 0.5833,
+    "std": 0.0781,
+    "per_run": [
+      0.5714,
+      0.7143,
+      0.5238,
+      0.5238
+    ]
+  },
+  "pass@4": 0.7619,
+  "pass^4": 0.4286
+}

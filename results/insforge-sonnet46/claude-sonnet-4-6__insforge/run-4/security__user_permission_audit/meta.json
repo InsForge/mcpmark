@@ -1,0 +1,22 @@
+{
+  "task_name": "security__user_permission_audit",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "insforge",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-03-01T01:48:33.236568",
+    "end": "2026-03-01T01:48:33.359750"
+  },
+  "agent_execution_time": 0.0,
+  "task_execution_time": 0.12317276000976562,
+  "execution_result": {
+    "success": false,
+    "error_message": "State Duplication Error",
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {},
+  "turn_count": null
+}

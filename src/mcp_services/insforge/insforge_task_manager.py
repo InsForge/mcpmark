@@ -30,11 +30,12 @@ class InsforgeTask(BaseTask):
 class InsforgeTaskManager(BaseTaskManager):
     """Manages Insforge tasks for MCPMark evaluation."""
 
-    def __init__(self, tasks_root: Path = None):
+    def __init__(self, tasks_root: Path = None, task_suite: str = "standard"):
         """Initialize Insforge task manager.
 
         Args:
             tasks_root: Path to tasks directory
+            task_suite: Logical task suite (e.g., 'standard', 'easy')
         """
         if tasks_root is None:
             tasks_root = Path(__file__).resolve().parents[3] / "tasks"
@@ -44,6 +45,7 @@ class InsforgeTaskManager(BaseTaskManager):
             mcp_service="insforge",
             task_class=InsforgeTask,
             task_organization="file",  # Insforge uses file-based tasks
+            task_suite=task_suite,
         )
 
     def _create_task_from_files(

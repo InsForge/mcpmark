@@ -1,0 +1,27 @@
+{
+  "task_name": "employees__employee_project_tracking",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T15:43:50.588251",
+    "end": "2026-02-28T15:45:24.714406"
+  },
+  "agent_execution_time": 90.38968682289124,
+  "task_execution_time": 94.12615013122559,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "==================================================\n✅ Table structures are correct\n✅ All required indexes are present\n✅ Project data is correct\n❌ Expected 240124 assignments, found 300024\n\n❌ Task verification: FAIL\n"
+  },
+  "token_usage": {
+    "input_tokens": 113066,
+    "output_tokens": 6467,
+    "total_tokens": 119533,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 11
+}

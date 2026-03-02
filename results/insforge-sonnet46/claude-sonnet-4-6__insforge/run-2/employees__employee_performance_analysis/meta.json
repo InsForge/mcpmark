@@ -1,0 +1,27 @@
+{
+  "task_name": "employees__employee_performance_analysis",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "insforge",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T23:36:20.817746",
+    "end": "2026-02-28T23:38:04.745225"
+  },
+  "agent_execution_time": 93.77299785614014,
+  "task_execution_time": 103.9274640083313,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\n✅ Employee performance results are correct (240124 records)\n✅ Department salary results are correct (9 records)\n\n🎉 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 157234,
+    "output_tokens": 5512,
+    "total_tokens": 162746,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 15
+}

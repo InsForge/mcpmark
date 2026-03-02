@@ -1,0 +1,27 @@
+{
+  "task_name": "employees__executive_dashboard_automation",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T15:52:21.338287",
+    "end": "2026-02-28T15:54:42.218820"
+  },
+  "agent_execution_time": 134.536278963089,
+  "task_execution_time": 140.8805272579193,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "==================================================\n✅ All materialized views are created and contain correct data\n❌ generate_monthly_report procedure not found\n\n❌ Task verification: FAIL\n"
+  },
+  "token_usage": {
+    "input_tokens": 278715,
+    "output_tokens": 7957,
+    "total_tokens": 286672,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 22
+}

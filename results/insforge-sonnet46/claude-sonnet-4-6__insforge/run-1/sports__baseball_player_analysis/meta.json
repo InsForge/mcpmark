@@ -1,0 +1,27 @@
+{
+  "task_name": "sports__baseball_player_analysis",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "insforge",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T22:08:01.808730",
+    "end": "2026-02-28T22:09:24.509365"
+  },
+  "agent_execution_time": 81.2385368347168,
+  "task_execution_time": 82.70062303543091,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "======================================================================\nPostgreSQL Sports Task 1 Verification: Baseball Player Analysis\n======================================================================\n❌ Player analysis row 1 mismatch: expected (267, 'Milton Bradley', 'Unknown', 21, 75, 27, 17, 15, 5, Decimal('0.36000000000000000000'), 21, 0, 0, 0, Decimal('0')), got (267, 'Milton Bradley', 'Unknown', 21, 75, 27, 17, 15, 5, Decimal('0.36000000000000000000'), 21, 0, 0, 0, None)\n❌ Player analysis row 2 mismatch: expected (498, 'Ichiro Suzuki', 'Unknown', 107, 445, 156, 76, 45, 5, Decimal('0.35056179775280898876'), 107, 0, 0, 0, Decimal('0')), got (498, 'Ichiro Suzuki', 'Unknown', 107, 445, 156, 76, 45, 5, Decimal('0.35056179775280898876'), 107, 0, 0, 0, None)\n❌ Player analysis row 3 mismatch: expected (859, 'Ruben Gotay', 'Unknown', 57, 129, 45, 21, 20, 4, Decimal('0.34883720930232558140'), 57, 0, 0, 0, Decimal('0')), got (859, 'Ruben Gotay', 'Unknown', 57, 129, 45, 21, 20, 4, Decimal('0.34883720930232558140'), 57, 0, 0, 0, None)\n❌ Player analysis row 4 mismatch: expected (816, 'Magglio Ordonez', 'Unknown', 106, 399, 139, 79, 91, 16, Decimal('0.34837092731829573935'), 106, 0, 0, 0, Decimal('0')), got (816, 'Magglio Ordonez', 'Unknown', 106, 399, 139, 79, 91, 16, Decimal('0.34837092731829573935'), 106, 0, 0, 0, None)\n❌ Player analysis row 5 mismatch: expected (953, 'Ryan Braun', 'Unknown', 63, 256, 89, 50, 52, 19, Decimal('0.34765625000000000000'), 63, 0, 0, 0, Decimal('0')), got (953, 'Ryan Braun', 'Unknown', 63, 256, 89, 50, 52, 19, Decimal('0.34765625000000000000'), 63, 0, 0, 0, None)\n❌ Total player analysis mismatches: 382\n\n❌ Task verification: FAIL\n"
+  },
+  "token_usage": {
+    "input_tokens": 218230,
+    "output_tokens": 4963,
+    "total_tokens": 223193,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 12
+}

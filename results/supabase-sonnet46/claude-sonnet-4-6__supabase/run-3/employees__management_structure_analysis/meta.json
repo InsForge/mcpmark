@@ -1,0 +1,27 @@
+{
+  "task_name": "employees__management_structure_analysis",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T15:54:42.219323",
+    "end": "2026-02-28T15:54:52.696850"
+  },
+  "agent_execution_time": 6.892416000366211,
+  "task_execution_time": 10.47752332687378,
+  "execution_result": {
+    "success": false,
+    "error_message": "litellm.ContextWindowExceededError: litellm.BadRequestError: AnthropicError - {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"prompt is too long: 209969 tokens > 200000 maximum\"},\"request_id\":\"req_011CYa7BYPZqQx2ucoLF821H\"}",
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "==================================================\n❌ Database error: relation \"employees.manager_profile\" does not exist\nLINE 4:             FROM employees.manager_profile\n                         ^\n\n"
+  },
+  "token_usage": {
+    "input_tokens": 4136,
+    "output_tokens": 141,
+    "total_tokens": 4277,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 1
+}

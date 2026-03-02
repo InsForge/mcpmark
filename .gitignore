@@ -2,7 +2,7 @@ logs
 .claude
 CLAUDE.md
 .gemini
-results
+# results
 materials
 scripts
 !.github/scripts

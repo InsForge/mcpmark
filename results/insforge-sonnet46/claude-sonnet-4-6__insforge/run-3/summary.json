@@ -1,0 +1,168 @@
+{
+  "model_name": "claude-sonnet-4.6",
+  "model_config": {
+    "mcp_service": "insforge",
+    "model_name": "claude-sonnet-4.6",
+    "litellm_run_model_name": "claude-sonnet-4-6",
+    "reasoning_effort": "default",
+    "timeout": 3600,
+    "agent_name": "mcpmark"
+  },
+  "total_tasks": 21,
+  "successful_tasks": 11,
+  "failed_tasks": 10,
+  "success_rate": 52.38,
+  "total_task_execution_time": 3192.650285720825,
+  "average_task_execution_time": 152.03096598670595,
+  "total_agent_execution_time": 3142.40633893013,
+  "average_agent_execution_time": 149.63839709191095,
+  "token_usage": {
+    "total_input_tokens": 6078886,
+    "total_output_tokens": 166510,
+    "total_tokens": 6245396,
+    "total_reasoning_tokens": 0,
+    "avg_input_tokens": 289470.76,
+    "avg_output_tokens": 7929.05,
+    "avg_total_tokens": 297399.81,
+    "avg_reasoning_tokens": 0.0
+  },
+  "turn_usage": {
+    "total_turns": 344,
+    "avg_turns": 16.38
+  },
+  "category_breakdown": {
+    "chinook": {
+      "total": 3,
+      "success_rate": 66.67,
+      "avg_time": 382.06,
+      "token_usage": {
+        "total_input": 730834,
+        "total_output": 52615,
+        "total": 783449,
+        "total_reasoning": 0,
+        "avg_input": 243611.33,
+        "avg_output": 17538.33,
+        "avg_total": 261149.67,
+        "avg_reasoning": 0.0
+      },
+      "turn_usage": {
+        "total_turns": 44,
+        "avg_turns": 14.67
+      }
+    },
+    "sports": {
+      "total": 3,
+      "success_rate": 33.33,
+      "avg_time": 88.91,
+      "token_usage": {
+        "total_input": 803305,
+        "total_output": 15141,
+        "total": 818446,
+        "total_reasoning": 0,
+        "avg_input": 267768.33,
+        "avg_output": 5047.0,
+        "avg_total": 272815.33,
+        "avg_reasoning": 0.0
+      },
+      "turn_usage": {
+        "total_turns": 42,
+        "avg_turns": 14.0
+      }
+    },
+    "dvdrental": {
+      "total": 3,
+      "success_rate": 66.67,
+      "avg_time": 125.48,
+      "token_usage": {
+        "total_input": 956280,
+        "total_output": 21900,
+        "total": 978180,
+        "total_reasoning": 0,
+        "avg_input": 318760.0,
+        "avg_output": 7300.0,
+        "avg_total": 326060.0,
+        "avg_reasoning": 0.0
+      },
+      "turn_usage": {
+        "total_turns": 47,
+        "avg_turns": 15.67
+      }
+    },
+    "employees": {
+      "total": 6,
+      "success_rate": 50.0,
+      "avg_time": 115.16,
+      "token_usage": {
+        "total_input": 1405955,
+        "total_output": 34436,
+        "total": 1440391,
+        "total_reasoning": 0,
+        "avg_input": 234325.83,
+        "avg_output": 5739.33,
+        "avg_total": 240065.17,
+        "avg_reasoning": 0.0
+      },
+      "turn_usage": {
+        "total_turns": 108,
+        "avg_turns": 18.0
+      }
+    },
+    "lego": {
+      "total": 3,
+      "success_rate": 33.33,
+      "avg_time": 170.92,
+      "token_usage": {
+        "total_input": 1794571,
+        "total_output": 29091,
+        "total": 1823662,
+        "total_reasoning": 0,
+        "avg_input": 598190.33,
+        "avg_output": 9697.0,
+        "avg_total": 607887.33,
+        "avg_reasoning": 0.0
+      },
+      "turn_usage": {
+        "total_turns": 78,
+        "avg_turns": 26.0
+      }
+    },
+    "security": {
+      "total": 2,
+      "success_rate": 50.0,
+      "avg_time": 48.3,
+      "token_usage": {
+        "total_input": 251448,
+        "total_output": 6437,
+        "total": 257885,
+        "total_reasoning": 0,
+        "avg_input": 125724.0,
+        "avg_output": 3218.5,
+        "avg_total": 128942.5,
+        "avg_reasoning": 0.0
+      },
+      "turn_usage": {
+        "total_turns": 17,
+        "avg_turns": 8.5
+      }
+    },
+    "vectors": {
+      "total": 1,
+      "success_rate": 100.0,
+      "avg_time": 103.0,
+      "token_usage": {
+        "total_input": 136493,
+        "total_output": 6890,
+        "total": 143383,
+        "total_reasoning": 0,
+        "avg_input": 136493.0,
+        "avg_output": 6890.0,
+        "avg_total": 143383.0,
+        "avg_reasoning": 0.0
+      },
+      "turn_usage": {
+        "total_turns": 8,
+        "avg_turns": 8.0
+      }
+    }
+  }
+}

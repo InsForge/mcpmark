@@ -1,0 +1,27 @@
+{
+  "task_name": "vectors__dba_vector_analysis",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "insforge",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-03-01T00:54:44.242836",
+    "end": "2026-03-01T00:56:27.241031"
+  },
+  "agent_execution_time": 102.40498614311218,
+  "task_execution_time": 102.99818396568298,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "  PASSED\n\n  FAILED\n    - Agent analyzed non-vector tables: {'knowledge_base', 'search_cache', 'embedding_models'}\n\n  PASSED\n\n  PASSED\n\nResults: 3/4 checks passed\n"
+  },
+  "token_usage": {
+    "input_tokens": 136493,
+    "output_tokens": 6890,
+    "total_tokens": 143383,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 8
+}

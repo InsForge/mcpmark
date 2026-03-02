@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-02-28T21:05:43.764631",
+  "model": "claude-sonnet-4-6-supabase",
+  "actual_model_name": "claude-sonnet-4-6-supabase",
+  "runs": 4,
+  "total_tasks": 21,
+  "total_agent_execution_time": 16697.14,
+  "total_input_tokens": 71527253,
+  "total_output_tokens": 841263,
+  "total_tokens": 72368516,
+  "total_turns": 1430,
+  "avg_agent_execution_time": 198.7755,
+  "avg_input_tokens": 851514.92,
+  "avg_output_tokens": 10015.04,
+  "avg_total_tokens": 861529.95,
+  "avg_turns": 17.02,
+  "per_run_input_tokens": 17881813.25,
+  "per_run_output_tokens": 210315.75,
+  "per_run_cost": null,
+  "pass@1": {
+    "avg": 0.4762,
+    "std": 0.0891,
+    "per_run": [
+      0.381,
+      0.619,
+      0.4286,
+      0.4762
+    ]
+  },
+  "pass@4": 0.6667,
+  "pass^4": 0.3333
+}

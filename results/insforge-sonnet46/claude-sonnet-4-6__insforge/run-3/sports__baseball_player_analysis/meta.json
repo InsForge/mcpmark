@@ -1,0 +1,27 @@
+{
+  "task_name": "sports__baseball_player_analysis",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "insforge",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-03-01T00:50:17.514968",
+    "end": "2026-03-01T00:52:12.118618"
+  },
+  "agent_execution_time": 113.15218019485474,
+  "task_execution_time": 114.60363698005676,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "======================================================================\nPostgreSQL Sports Task 1 Verification: Baseball Player Analysis\n======================================================================\n❌ Player analysis row 21 mismatch: expected (281, 'Vladimir Guerrero', 'Unknown', 105, 397, 131, 60, 90, 18, Decimal('0.32997481108312342569'), 105, 0, 0, 0, Decimal('0')), got (281, 'Vladimir Guerrero', 'Unknown', 105, 397, 131, 60, 90, 18, Decimal('0.32997481108312342569'), 105, 0, 0, 1, Decimal('0E-20'))\n❌ Player analysis row 26 mismatch: expected (1061, 'Yunel Escobar', 'Unknown', 48, 153, 50, 25, 14, 1, Decimal('0.32679738562091503268'), 48, 0, 0, 0, Decimal('0')), got (1061, 'Yunel Escobar', 'Unknown', 48, 153, 50, 25, 14, 1, Decimal('0.32679738562091503268'), 48, 0, 0, 1, Decimal('0E-20'))\n❌ Player analysis row 44 mismatch: expected (559, 'Carlos Guillen', 'Unknown', 98, 360, 111, 59, 72, 14, Decimal('0.30833333333333333333'), 98, 0, 0, 0, Decimal('0')), got (559, 'Carlos Guillen', 'Unknown', 98, 360, 111, 59, 72, 14, Decimal('0.30833333333333333333'), 98, 0, 0, 1, Decimal('0E-20'))\n❌ Player analysis row 63 mismatch: expected (708, 'Alex Rodriguez', 'Unknown', 109, 405, 122, 101, 108, 36, Decimal('0.30123456790123456790'), 109, 0, 0, 0, Decimal('0')), got (708, 'Alex Rodriguez', 'Unknown', 109, 405, 122, 101, 108, 36, Decimal('0.30123456790123456790'), 109, 0, 0, 1, Decimal('0E-20'))\n❌ Player analysis row 131 mismatch: expected (858, 'Lastings Milledge', 'Unknown', 22, 78, 22, 9, 15, 3, Decimal('0.28205128205128205128'), 22, 0, 0, 0, Decimal('0')), got (858, 'Lastings Milledge', 'Unknown', 22, 78, 22, 9, 15, 3, Decimal('0.28205128205128205128'), 22, 0, 0, 1, Decimal('0E-20'))\n❌ Total player analysis mismatches: 13\n\n❌ Task verification: FAIL\n"
+  },
+  "token_usage": {
+    "input_tokens": 363784,
+    "output_tokens": 7048,
+    "total_tokens": 370832,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 16
+}

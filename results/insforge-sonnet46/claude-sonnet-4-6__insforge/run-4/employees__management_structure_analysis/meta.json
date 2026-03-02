@@ -1,0 +1,27 @@
+{
+  "task_name": "employees__management_structure_analysis",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "insforge",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-03-01T01:34:07.923370",
+    "end": "2026-03-01T01:35:43.242214"
+  },
+  "agent_execution_time": 90.03119206428528,
+  "task_execution_time": 95.31883192062378,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\n✅ Manager profile results are correct (24 records)\n✅ Department leadership results are correct (9 records)\n✅ Management transitions results are correct (15 records)\n✅ Span of control results are correct (9 records)\n\n🎉 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 159947,
+    "output_tokens": 5256,
+    "total_tokens": 165203,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 11
+}

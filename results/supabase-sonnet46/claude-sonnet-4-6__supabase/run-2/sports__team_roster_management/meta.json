@@ -1,0 +1,27 @@
+{
+  "task_name": "sports__team_roster_management",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T15:09:19.863526",
+    "end": "2026-02-28T15:11:18.021277"
+  },
+  "agent_execution_time": 116.54794335365295,
+  "task_execution_time": 118.1577467918396,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\nVerifying Sports Task 2: Team Roster Management Operations\n==================================================\n✅ Player evaluation table is correct (22 records)\n✅ Player injury status table is correct (22 records)\n✅ Team performance summary table is correct (6 metrics)\n\n🎉 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 1353492,
+    "output_tokens": 5252,
+    "total_tokens": 1358744,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 25
+}

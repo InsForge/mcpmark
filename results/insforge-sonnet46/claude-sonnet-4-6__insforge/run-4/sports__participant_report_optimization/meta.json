@@ -1,0 +1,27 @@
+{
+  "task_name": "sports__participant_report_optimization",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "insforge",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-03-01T01:50:24.636415",
+    "end": "2026-03-01T01:51:31.381316"
+  },
+  "agent_execution_time": 65.48359084129333,
+  "task_execution_time": 66.74489212036133,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\nVerifying Sports Task 3: Query Performance Optimization\n==================================================\n✅ Report data is correct (50 records)\n\n🔍 Checking for critical performance indexes...\n✅ Found participant filtering index on participants_events.participant_id\n✅ Found subquery optimization index on stats table\n\n✅ Performance optimization: PASS (2/2 critical indexes found)\n\n🎉 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 142426,
+    "output_tokens": 3526,
+    "total_tokens": 145952,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 10
+}

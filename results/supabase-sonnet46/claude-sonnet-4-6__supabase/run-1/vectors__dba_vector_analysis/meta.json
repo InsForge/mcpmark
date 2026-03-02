@@ -1,0 +1,27 @@
+{
+  "task_name": "vectors__dba_vector_analysis",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T13:10:34.265220",
+    "end": "2026-02-28T13:13:15.586532"
+  },
+  "agent_execution_time": 159.0262701511383,
+  "task_execution_time": 161.3213028907776,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "  PASSED\n\n  PASSED\n\n  PASSED\n\n  PASSED\n\nResults: 4/4 checks passed\n"
+  },
+  "token_usage": {
+    "input_tokens": 454294,
+    "output_tokens": 11136,
+    "total_tokens": 465430,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 11
+}

@@ -1,0 +1,27 @@
+{
+  "task_name": "security__rls_business_access",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T16:09:44.428516",
+    "end": "2026-02-28T16:13:14.744924"
+  },
+  "agent_execution_time": 209.98223209381104,
+  "task_execution_time": 210.31640434265137,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "Error during verification: permission denied for function dblink_connect_u\n\n"
+  },
+  "token_usage": {
+    "input_tokens": 1620873,
+    "output_tokens": 14064,
+    "total_tokens": 1634937,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 18
+}

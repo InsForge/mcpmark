@@ -1,0 +1,22 @@
+{
+  "task_name": "security__user_permission_audit",
+  "model_name": "claude-sonnet-4.6",
+  "litellm_run_model_name": "claude-sonnet-4-6",
+  "reasoning_effort": "default",
+  "mcp": "supabase",
+  "timeout": 3600,
+  "time": {
+    "start": "2026-02-28T15:05:55.989715",
+    "end": "2026-02-28T15:05:56.127274"
+  },
+  "agent_execution_time": 0.0,
+  "task_execution_time": 0.13755011558532715,
+  "execution_result": {
+    "success": false,
+    "error_message": "State Duplication Error",
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {},
+  "turn_count": null
+}
